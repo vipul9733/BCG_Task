@@ -9,7 +9,6 @@ An intelligent application that helps researchers, consultants, and students ana
 **For Consultants:**
 - A typical consulting project requires reviewing 5-10 research papers to build evidence-based recommendations
 - Manual analysis takes 10-15 hours per project
-- At $500/hour billing rate, that's **$5,000-7,500 in time costs**
 - Tight deadlines mean rushed analysis and potentially missed insights
 
 **For Researchers:**
@@ -130,7 +129,7 @@ Generate comprehensive literature reviews with:
 
 ## 🚀 Live Demo
 
-**Deployed Application:** [Your Streamlit Cloud URL]
+**Deployed Application:** [https://bcgtask-vgu6mroq6t5ragtjwbkw46.streamlit.app/]
 
 **No setup required!** Click the link and start analyzing papers immediately.
 
