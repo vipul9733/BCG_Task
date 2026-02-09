@@ -577,20 +577,6 @@ Provide JSON:
         return html_string
 
 
-def load_demo_papers():
-    """Placeholder for demo papers - users can add their own"""
-    st.info("""
-    **Demo Mode:** To add sample papers for instant testing:
-    1. Add 2-3 PDF papers to a `sample_papers/` folder in your repo
-    2. Update this function to load them
-    3. Users can click "Load Sample Papers" to test immediately
-    
-    For now, please upload your own research papers (PDF format).
-    Good sources: arXiv.org, Google Scholar, PubMed
-    """)
-    return []
-
-
 def main():
     """Main Streamlit application"""
     
@@ -671,10 +657,7 @@ def main():
             accept_multiple_files=True,
             help="Upload academic research papers in PDF format"
         )
-    
-    with col2:
-            if demo_papers:
-                uploaded_files = demo_papers
+
     
     if not uploaded_files:
         st.info("👆 Upload research papers to get started")
