@@ -673,8 +673,6 @@ def main():
         )
     
     with col2:
-        if st.button("📥 Load Demo Papers", help="Load sample papers for testing"):
-            demo_papers = load_demo_papers()
             if demo_papers:
                 uploaded_files = demo_papers
     
